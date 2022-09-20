@@ -1,0 +1,11 @@
+courses =["comp151","comp152","math130","math120"]
+courses.append('Comp415')
+print(courses)
+courses.insert(4, "math161")
+print(courses)
+courses.insert(-2, "comp206")
+print(courses)
+courses.remove('math120')
+print(courses)
+courses.pop(-3)
+print(courses)
